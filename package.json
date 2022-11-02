@@ -2,9 +2,8 @@
   "name": "mojibakashi",
   "version": "0.1.0",
   "description": "mojibakashi is `mojibake` text generator.",
-  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "tsc -p ."
   },
   "repository": {
@@ -24,5 +23,10 @@
   "dependencies": {
     "iconv-lite": "^0.6.3",
     "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.1",
+    "jest": "^29.2.2",
+    "ts-jest": "^29.0.3"
   }
 }
