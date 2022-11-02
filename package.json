@@ -4,7 +4,9 @@
   "description": "mojibakashi is `mojibake` text generator.",
   "scripts": {
     "test": "jest",
-    "build": "tsc -p ."
+    "prebuild": "npm run test",
+    "build": "tsc -p .",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
