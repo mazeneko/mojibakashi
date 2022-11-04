@@ -2,6 +2,7 @@
   "name": "mojibakashi",
   "version": "0.1.1",
   "description": "mojibakashi is `mojibake` text generator.",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "prebuild": "npm run test",
